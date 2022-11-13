@@ -4,8 +4,8 @@ local Window = Library.CreateLib("My First Cheat", "RJTheme3")
 
 local Tab = Window:NewTab("First")
 
-local Selection = Tab:NewSelection("In First")
+local Section = Tab:NewSection("In First")
 
-Selection:NewButton("Speed X3", "ButtonInfo", function()
+Section:NewButton("Speed X3", "ButtonInfo", function()
     game.LocalPlayer.Character.Humanoid.WalkSpeed = 48
 end)
