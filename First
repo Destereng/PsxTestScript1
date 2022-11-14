@@ -1,13 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("Рома Гей хыхвхв", "DarkTheme")
 
-local Tab = Window:NewTab("TabName")
+local Tab = Window:NewTab("Dima shilovenki gay")
 
-local Section = Tab:NewSection("Section Name")
+local Section = Tab:NewSection("Ромаха гей")
 
-Section:NewLabel("LabelText")
+Section:NewLabel("Вункции")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Включить режим Ромы гея", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 48
 end)
