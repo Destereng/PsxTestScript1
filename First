@@ -1,17 +1,12 @@
 
-local Library = loadstring(game:HttpGet("githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Рома Гей хыхвхв", "DarkTheme")
+local Window = Library.CreateLib("TITLE", "DarkTheme")
 
-local Tab = Window:NewTab("Dima shilovenki gay")
+local Tab = Window:NewTab("TabName")
 
-local Section = Tab:NewSection("Ромаха гей")
+local Section = Tab:NewSection("Bebra")
 
-Section:NewButton("Включить режим Ромы гея", "ButtonInfo", function()
-    Wait(3)
-    print("Loading...")
-    Wait(3)
-    print("Готово")
-    Wait(1)
-    print("Рома теперь гей. Поздравляю")
+Section:NewButton("SpeedX3", "ButtonInfo", function()
+    Print("Work!")
 end)
