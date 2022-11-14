@@ -1,5 +1,5 @@
 
-         githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Рома Гей хыхвхв", "DarkTheme")
 
